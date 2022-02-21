@@ -3,7 +3,42 @@
     font-family: "Roboto Mono", monospace;
 }
 
-.test{
+/* main background image */
+
+.bg-image{
+
+    background: url("imgs/GERT-TEMP2.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+
+.hero-title{
+    font-size: 4.5rem;
+}
+
+.hero-desc {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.hero-text{
 
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.navbarScroll.navbarDark{
+
+    background-color: black;
+}
+
+.navbar-brand{
+
+    color: white;
 }
